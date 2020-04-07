@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightskyblue;
+}
+
+.rapper-section {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Large Resolutions */
+@media(min-width:900px) {
+    #rappers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rapper-section {
+        flex-wrap: wrap;
+        width: 30%;
+    }
+}
